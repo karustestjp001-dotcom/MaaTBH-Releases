@@ -1,5 +1,38 @@
 # MaaTBH 更新日誌
 
+## v0.25.15 — 2026-09-16
+
+支援 TBH **1.2.3**，內含 MaaTBH **v0.25.15**／Unity Bridge **v0.23.15**，適用 Windows 10／11 x64。
+
+本次為自上次 GitHub 公開版 v0.25.9 以來的累積更新。
+
+### TBH 1.2.3 相容更新
+
+- 依 Steam build 25299976 重新生成 IL2CPP Interop 與 Cpp2IL 呼叫圖，完整重對映 Bridge 使用的遊戲內型別與成員。
+- 重新匯出並比較 48 份遊戲資料表；物品、被動技能、符文與符文等級資料有更新，裝備製作、合成與供奉配方維持不變。
+- 重新匯出 430 張物品辨識圖示並逐檔比對；裝備、飾品、材料與箱子圖示均無異動。
+- Bridge、APP 與正式授權服務改為精確支援 TBH 1.2.3；版本不符時維持唯讀並停止修改功能。
+
+### Sandboxie 多帳號支援
+
+- 新增 `啟動 Steam_B 專用版.cmd` 與 `啟動 Steam_C 專用版.cmd`，可讓主機、Steam_B、Steam_C 各自連接同一環境內的 TBH。
+- 依 Sandboxie 回報的程序身分精確選擇遊戲；同時存在多份 TBH 時不會任選其他帳號的視窗，身分不明則安全停止。
+- 支援 Sandboxie 的 `[#] TaskBarHero [#]` 視窗標題與 PrintWindow 背景擷取，不移動 Windows 滑鼠或搶鍵盤焦點。
+- 修正沙盒環境無法初始化 Windows CNG 的問題；Bridge 改用相容的 Windows RSA CSP 驗證相同的短效工作資格，原有簽章、版本、有效期限與操作範圍檢查全部保留。
+
+### 下載與更新
+
+1. 下載 `MaaTBH-v0.25.15-portable-encrypted.rar`，完整解壓縮。
+2. 停止 MaaTBH 工作，正常關閉 MaaTBH 與 TBH。
+3. 執行新版資料夾的 `安裝MaaTBH.cmd`，安裝隨包 Bridge 並建立本機圖示庫。
+4. 從 Steam 重新啟動 TBH，再開啟新版 `MaaTBH.exe`；Sandboxie 使用者改用對應的 Steam_B／Steam_C 專用啟動檔。
+
+不要直接在壓縮檔內執行。附件另提供 SHA-256 驗證檔。既有 Discord 會員登入與核准規則維持不變。
+
+### 驗證
+
+本版已通過 710 項測試（Python 575、授權服務 39、Bridge 96），以及授權服務型別檢查、Bridge Release 編譯、兩輪可攜 runtime／GUI 啟動、消費者入口、來源雜湊與 ZIP 解壓內容樹驗證。實機唯讀驗收確認 TBH 1.2.3／Bridge v0.23.15 狀態為 ready，兩次完整背包與倉庫快照一致；發版驗收沒有執行解鎖、合成、製作、分解、供奉或消耗物品。
+
 ## v0.25.9 — 2026-09-10
 
 支援 TBH **1.2.2**，內含 MaaTBH **v0.25.9**／Unity Bridge **v0.23.9**，適用 Windows 10／11 x64。
