@@ -2,14 +2,20 @@
 
 MaaTBH 正式可攜版下載、更新日誌與 SHA-256 驗證檔。
 
-目前公開版：**v0.25.42**，支援 **TBH 1.2.8**，內含 **Unity Bridge v0.23.42**。
+目前公開版：**v0.25.45**，支援 **TBH 1.3.0**，內含 **Unity Bridge v0.23.45**。
 
 - [下載最新版](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/latest)
-- [v0.25.42 更新內容](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/tag/v0.25.42)
+- [v0.25.45 更新內容](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/tag/v0.25.45)
 - [完整更新日誌](CHANGELOG.md)
 
-下載加密 7z 與 SHA-256 校驗檔並完整解壓縮。解壓密碼請聯繫原作者取得。更新時先停止工作並正常關閉 MaaTBH／TBH，再執行新版資料夾的 `安裝MaaTBH.cmd`，完成後重新啟動遊戲與 `MaaTBH.exe`。不要直接在壓縮檔內執行。
+下載加密 7z 與 SHA-256 校驗檔並完整解壓縮。
 
-v0.25.42 是一般 Windows 使用者版，不包含 Steam_B／Steam_C 或 Sandboxie 功能。Sandboxie 專用版已分離維護，請勿用本版連接沙盒遊戲。
+**索取解壓密碼請聯繫作者 Discord：`t3_1337`。**
+
+更新時先停止工作並正常關閉 MaaTBH／TBH，再執行新版資料夾的 `安裝MaaTBH.cmd`，完成後重新啟動遊戲與 `MaaTBH.exe`。不要直接在壓縮檔內執行。
+
+v0.25.45 是一般 Windows 使用者版，不包含 Steam_B／Steam_C 或 Sandboxie 功能。Sandboxie 專用版已分離維護，請勿用本版連接沙盒遊戲。
+
+本版包含萬聖節相容更新、素材倉庫轉存 Beta，以及糖果最大堆疊 999 的跨頁分類修正。
 
 此儲存庫提供正式下載與發行文件；使用遊戲修改功能仍需通過既有 Discord 會員核准。
