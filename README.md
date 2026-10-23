@@ -2,10 +2,10 @@
 
 MaaTBH 正式可攜版下載、更新日誌與 SHA-256 驗證檔。
 
-目前公開版：**v0.25.46**，支援 **TBH 1.3.0**，內含 **Unity Bridge v0.23.46**。
+目前公開版：**v0.25.47**，支援 **TBH 1.3.0**，內含 **Unity Bridge v0.23.47**。
 
 - [下載最新版](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/latest)
-- [v0.25.46 更新內容](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/tag/v0.25.46)
+- [v0.25.47 更新內容](https://github.com/karustestjp001-dotcom/MaaTBH-Releases/releases/tag/v0.25.47)
 - [完整更新日誌](CHANGELOG.md)
 
 下載加密 7z 與 SHA-256 校驗檔並完整解壓縮。
@@ -14,8 +14,8 @@ MaaTBH 正式可攜版下載、更新日誌與 SHA-256 驗證檔。
 
 更新時先停止工作並正常關閉 MaaTBH／TBH，再執行新版資料夾的 `安裝MaaTBH.cmd`，完成後重新啟動遊戲與 `MaaTBH.exe`。不要直接在壓縮檔內執行。
 
-v0.25.46 是一般 Windows 使用者版，不包含 Steam_B／Steam_C 或 Sandboxie 功能。Sandboxie 專用版已分離維護，請勿用本版連接沙盒遊戲。
+v0.25.47 是一般 Windows 使用者版，不包含 Steam_B／Steam_C 或 Sandboxie 功能。Sandboxie 專用版已分離維護，請勿用本版連接沙盒遊戲。
 
-本版新增固定等級勾選、修正新版遊戲的合成定位問題，並保留素材倉庫轉存 Beta 與跨頁分類修正。
+本版修正啟用打王後，倉庫尚未開啟就先盤點靈魂石、導致合成提前停止的問題；保留固定等級與素材倉庫轉存 Beta。
 
 此儲存庫提供正式下載與發行文件；使用遊戲修改功能仍需通過既有 Discord 會員核准。
